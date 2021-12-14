@@ -1,0 +1,56 @@
+
+    /* Pie de pagina */
+
+
+/* Tamaño y color del pie de página */
+
+.pie-pagina {
+	background-color: #353535;
+	height: 200px;
+	margin-top: auto;
+	margin-bottom: 0px;
+	border-top: 3px;
+	border-top-style: solid;
+	border-top-color: #6B6B6B;
+}
+
+
+/* Lineas blancas del pie de página */
+
+.linea-pie-pagina {
+	border-bottom: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #DBDBDB;
+	width: 40%;
+	height: 10px;
+	margin-left: 30%;
+}
+
+
+/* Espacios entre los iconos del pie de página */
+
+.espacio-iconos-pie-pagina {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/* Tamaño de logo de Copyleft */
+
+.logo-copyleft {
+	width: 18px;
+}
+
+
+/* Color de la letra, clase que se utiliza cuando queremos poner la letra en blanco */
+
+.letra-blanca {
+	color: white;
+	height: 30px;
+}
+
+
+/* Margen de las oraciones del pie */
+
+.margen-palabras-pie {
+	margin: 10px;
+}
