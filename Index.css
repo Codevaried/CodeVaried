@@ -1,0 +1,71 @@
+
+	/* Css de Index */
+
+html {
+	height: 100%;
+}
+
+
+body {
+	min-height: 100%;
+}
+
+
+/* Color de fondo de la etiqueta Body */
+
+.color-body {
+	background-color: #66999;
+}
+
+
+/* Espacio vertical entre los contenedores principales, espacio horizontal del mismo tamaño */
+	
+.espacio-div {
+	height: 60px;
+}
+
+
+/* Espacio doble vertical entre los contenedores principales, espacio horizontal del mismo tamaño */
+
+.espacio-doble-div {
+	height: 150px;
+}
+
+
+/* Tamaño donde esta escrita la definición de CodeVaried */
+
+.definicion-pagina-div {
+	width: 60%;
+}
+
+
+/* Color de la letra, clase que se utiliza cuando queremos poner la letra en blanco */
+
+.color-letra-div {
+	color: black;
+}
+
+
+/* Color de los Divs principales que tienen un enlace */
+
+.borde-link {
+	background-color: #CECCCC;
+	border-style: solid;
+	border-color: #DFDEDE;
+	border-radius: 20px;
+	word-wrap: break-word;
+}
+
+
+/* Cuando pasar el ratón por los Divs principales que tienen un enlace */
+
+.borde-link:hover {
+	background-color: #AAA8A8;
+	border-style: solid;
+	border-color: #DFDEDE;
+	border-radius: 20px
+}
+
+/* .margen-HOME-izquierda { */
+	/* margin-right: 65px; */
+/* } */

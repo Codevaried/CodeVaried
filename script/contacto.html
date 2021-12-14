@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es"> 
+ 
+	<head>   
+
+		
+		<title>CodeVaried</title>
+	 
+		<meta charset="UTF-8">
+		<meta name="title" content="Título de la WEB">
+		<meta name="description" content="Descripción de la WEB">
+		
+		<link rel="shortcut icon" href="imag/CodeVaried.png">
+
+		<!-- Bootstrap CSS -->
+		
+		<style>
+			html {
+				height: 100%;
+			}
+			
+			body {
+				display: flex;
+				flex-direction: column;
+				min-height: 100%;
+			}
+			
+			.color-body {
+				background-color: #F8F8F8;
+			}
+			
+			
+			
+			
+			
+			
+			<!-- Css de menu -->
+			
+			.margen-derecha-menu {
+				margin-right: 50px;
+			}
+			
+			
+			.fondo-menu {
+				background-color: #E4E4E4;
+				border-bottom: 3px;
+				border-bottom-style: solid;
+				border-bottom-color: black;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				top: 0;
+				transition: top 0.5s;
+			}
+			
+			.color-div-enlaces {
+				background-color: #CECCCC;
+				border-style: solid;
+				border-color: #DFDEDE;
+				border-radius: 20px;
+				word-wrap: break-word;
+			}
+			
+			.pestaña-menu {
+				width: 180px;
+				background-color: #DDDDDD;
+				border-radius: 10px;
+			}
+			
+			.pestaña-menu:hover {
+				background-color: #BEBEBE;
+				border-width: 1px;
+				border-style: solid;
+				border-color: #818181;
+				border-radius: 10px;
+			}
+			
+			.logo {
+				margin-bottom: 10px;
+				width:110px;
+			}
+			
+			.nav-item {
+				margin: 5px;	
+			}
+			
+			.margen-HOME-izquierda {
+				margin-left: 0px;
+			}
+			
+			.navbar-brand {
+				margin-right: auto;
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- -->
+			
+			
+			.pie-pagina {
+				background-color: #353535;
+				height: 120px;
+				margin-top: auto;
+				margin-bottom: 0px;
+				border-top: 3px;
+				border-top-style: solid;
+				border-top-color: #6B6B6B;
+			}
+			
+			.linea-pie-pagina {
+				border-bottom: 3px;
+				border-bottom-style: solid;
+				border-bottom-color: #DBDBDB;
+				width: 40%;
+				height: 10px;
+				margin-left: 30%;
+			}
+			
+			.espacio-iconos-pie-pagina {
+				margin-left: 5px;
+				margin-right: 5px;
+			}
+			
+			
+			
+			
+			
+			
+			<!--  -->
+			
+			
+			.container-fluid {
+				padding-top: 0px;
+			}
+			
+			
+			.espacio-div {
+				height: 60px;
+			}
+		
+		
+			.espacio-doble-div {
+				height: 150px;
+			}
+			
+			
+			.definicion-pagina-div {
+				width: 60%;
+			}
+			
+			
+			
+		</style>
+		
+		
+		
+		
+		<link rel="stylesheet" href="..\lib\bootstrap\css/bootstrap.min.css" />
+	</head>
+	
+	<body class="color-body"> 
+	
+		<div class="">
+			<nav class="navbar navbar-expand-lg navbar-light fondo-menu">
+				<div class="container-fluid">
+						<a href="#" class="navbar-brand"><img src="imag/LogoCodeVaried.png" class="logo"></a> 
+						<ul class="navbar-nav ms-3 ">
+							<li class="nav-item text-center margen-HOME-izquierda"><font size="7"><b><a href="" class="nav-link">HOME</a></b></font></li>
+						</ul>
+					<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#jeison">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					
+					<div id="jeison" class="justify-content-end collapse navbar-collapse margen-derecha-menu">
+						<ul class="navbar-nav ms-3 cambiardelado">
+							<li class="nav-item text-center"><font size="4"><b><a href="index.html\#Destacado" class="nav-link pestaña-menu">Destacado</a></b></font></li>
+							<li class="nav-item text-center"><font size="4"><b><a href="#Lo-más-nuevo" class="nav-link pestaña-menu">Lo más nuevo</a></b></font></li>
+							<li class="nav-item text-center"><font size="4"><b><a href="" class="nav-link pestaña-menu">Contacto</a></b></font></li>
+						</ul>
+					</div>
+					
+				</div>
+			</nav>
+		</div>
+	
+		<div class="container espacio-div">
+		</div>
+		
+		<div class="container text-center">
+			<h1>Esta página sera para contactos, si o si</h1>
+		</div>
+		
+		
+		
+		
+	
+			<div class="col-sm-12 py-3 pie-pagina text-center">
+					<a href="https://www.instagram.com/codevaried/" class="espacio-iconos-pie-pagina"><img src="imag/iconos/LogoInstagram.png" width="20px"></a> <a href="" class="espacio-iconos-pie-pagina"><img src="imag/iconos/LogoTelegram.png" width="20px"></a> <a href="" class="espacio-iconos-pie-pagina"><img src="imag/iconos/LogoWhatsapp.png" width="20px"></a> <a href="" class="espacio-iconos-pie-pagina"><img src="imag/iconos/LogoGmail.png" width="20px"></a>
+					<p class="linea-pie-pagina"></p>
+					<p style="height: 30px;"><font color="white">Copyright © 2021, CodeVaried. </font></p>
+			</div>
+		
+		
+		
+		<!-- JavaScript -->
+		<script src="..\lib\bootstrap\js\jquery-3.5.1.slim.min.js"></script>
+		<script src="..\lib\bootstrap\js\popper.min.js"></script>
+		<script src="..\lib\bootstrap\js\bootstrap.min.js"></script>
+		
+	</body>
+	
+</html>
