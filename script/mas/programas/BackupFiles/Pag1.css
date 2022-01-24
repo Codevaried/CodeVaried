@@ -1,0 +1,77 @@
+
+/* Css de BackupFiles */
+
+html {
+	height: 100%;
+}
+
+
+body {
+	height: 100%;
+	/* min-height: 100%; */
+	background: url(../../../../script/imag/BackGraundCode2.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+}
+
+
+
+.color-fluid {
+	/* backdrop-filter: blur(4px); */
+	background-color: #CCCCCC;
+	width: 89%;
+	opacity: 0.98;
+}
+
+
+/* Espacio vertical entre los contenedores principales, espacio horizontal del mismo tamaño */
+
+.espacio-div {
+	height: 60px;
+}
+
+
+.espacio-doble-div {
+	height: 150px;
+}
+
+
+/* Color de los Divs principales que tienen un enlace */
+
+.color-descarga{
+	background-color: #76BE7A;
+	width: 250px; 
+	height: 80px;
+	border-radius: 5px;
+}
+
+
+/* Cuando pasar el ratón por los Divs principales que tienen un enlace */
+
+.color-descarga:hover {
+	background-color: #2DC235;
+	border-radius: 5px;
+}
+
+/* letra de color blanco y poner centrado verticalmente y horizontalmente */
+.letra-descargar {
+	margin-top: -8px;
+	color: white;
+	height: 80px;	
+	border-radius: 5px;
+	display:flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+
+/* letra de color blanco y poner centrado verticalmente y horizontalmente, cuando pasas el raton por encima */
+
+.letra-descargar:hover {
+	margin-top: -8px;
+	color: white;
+	border-radius: 5px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}	
+

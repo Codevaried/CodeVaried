@@ -1,0 +1,133 @@
+
+    /* Css de menu */
+
+
+/* Color y personalizado de menu */
+
+.fondo-menu {
+	background-color: #333F4B;
+	border-bottom: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	top: 0;
+	transition: top 0.5s;
+}
+
+
+/* Margen de las pestañas de menu */
+
+.margen-derecha-menu {
+	margin-right: 50px;
+}
+
+
+/* Tamaño y color de pestaña-destacados de menu */
+
+.pestaña-menu-destacados {
+	width: 150px;
+	background-color: #2F928E;
+	border-radius: 10px;
+}
+
+
+/* Que hace cuando se pasa el raton por encima de las pestaña-destacados de menu */
+
+.pestaña-menu-destacados:hover {
+	background-color: #32B2AD;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #818181;
+	border-radius: 10px;
+}
+
+
+/* Tamaño y color de pestaña-juegos de menu */
+
+.pestaña-menu-juegos {
+	width: 150px;
+	background-color: #EA7600;
+	border-radius: 10px;
+}
+
+
+/* Que hace cuando se pasa el raton por encima de las pestaña-juegos de menu */
+
+.pestaña-menu-juegos:hover {
+	background-color: #FF8100;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #818181;
+	border-radius: 10px;
+}
+
+
+/* Tamaño y color de pestaña-DiseñoWeb de menu */
+
+.pestaña-menu-DiseñoWeb {
+	width: 150px;
+	background-color: #2B87C9;
+	border-radius: 10px;
+}
+
+
+/* Que hace cuando se pasa el raton por encima de las pestaña-DiseñoWeb de menu */
+
+.pestaña-menu-DiseñoWeb:hover {
+	background-color: #3093DB;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #818181;
+	border-radius: 10px;
+}
+
+
+/* Tamaño y color de pestañas de menu Descarga Verde*/
+
+.pestaña-menu-descarga {
+	width: 150px;
+	background-color: #76BE7A;
+	border-radius: 10px;
+}
+
+
+/* Que hace cuando se pasa el raton por encima de las pestañas de menu Descarga Verde*/
+
+.pestaña-menu-descarga:hover {
+	background-color: #2DC235;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #818181;
+	border-radius: 10px;
+}
+
+
+/* Tamaño y perzonalización de logo */
+
+.logo {
+	margin-bottom: 10px;
+	width:110px;
+}
+
+
+/* Margen que hay entre las pestañas de menu */
+
+.nav-item {
+	margin: 5px;	
+}
+
+
+/* Margen de la palabra Home */
+
+.margen-HOME-izquierda {
+	margin-right: 50px;
+}
+
+
+/* Margen del logo para que este a la izquierda del todo */
+
+.navbar-brand {
+	margin-right: auto;
+}
